@@ -1,0 +1,17 @@
+<svg width="200" height="113" xmlns="http://www.w3.org/2000/svg">
+  <!-- Create the grey border -->
+  <rect x="0" y="0" width="200" height="113" stroke="grey" fill="none" stroke-width="2"/>
+  <!-- Create the text -->
+  <text id="textElem" x="10" y="10" font-family="Verdana" font-size="18" fill="blue">
+    <!-- Animate the text's x and y coordinates -->
+    <animate attributeName="x" values="0;163;0;163;0" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="14;113;14;113;14" dur="10s" repeatCount="indefinite"/>
+    <!-- Instant Color changes -->
+    <animate attributeName="fill" values="blue;red;green;purple;blue"
+             keyTimes="0;0.25;0.5;0.75;1"
+             calcMode="discrete"
+             dur="10s"
+             repeatCount="indefinite"/>
+    DVD
+  </text>
+</svg>
